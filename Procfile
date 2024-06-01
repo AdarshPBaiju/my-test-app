@@ -1,1 +1,1 @@
-web: gunicorn url_shortener.wsgi:application --workers 3 --log-level debug
+web: gunicorn your_project_name.wsgi --log-file -
