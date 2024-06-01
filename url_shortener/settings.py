@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-sqf7d+izr$j*3q(@nr6s6qwa#rpspa+hfh16c+ferc6bkh=3+p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['url-shortener-django-57ed6b2127ad.herokuapp.com']
+ALLOWED_HOSTS = ['*'.'url-shortener-django-57ed6b2127ad.herokuapp.com']
 
 
 # Application definition
@@ -125,7 +125,6 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 
 # Default primary key field type
