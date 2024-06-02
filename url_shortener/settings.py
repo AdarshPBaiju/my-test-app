@@ -28,7 +28,7 @@ SECRET_KEY = "django-insecure-sqf7d+izr$j*3q(@nr6s6qwa#rpspa+hfh16c+ferc6bkh=3+p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*","127.0.0.1","shorturl.onrender.com",'localhost']
+ALLOWED_HOSTS = ["*","127.0.0.1","shorturl-ibm9.onrender.com",'localhost']
 
 
 # Application definition
@@ -40,9 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "URL",
-    'whitenoise.runserver_nostatic',
-    'django.contrib.staticfiles',
+    "url",
 ]
 
 MIDDLEWARE = [
